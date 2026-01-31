@@ -1,7 +1,7 @@
 // const urlParams = new URLSearchParams(window.location.search);
 // const name = urlParams.get("k"); // Get the value of "name"
 const introText = document.querySelector(".text-intro");
-introText.innerHTML = `Hi You! Pull the cord.`;
+introText.innerHTML = `Hi You! Pull the cord. | to huslen`;
 const engine = Matter.Engine.create();
 const world = engine.world;
 
